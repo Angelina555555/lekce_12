@@ -10,7 +10,9 @@ html {
 /*-----------------------------------*/
 
 body {
+  font-family: "Merriweather", serif;
   text-align: center;
+  background-color: #eac8af;
 }
 
 img,
@@ -18,4 +20,58 @@ input,
 textarea {
   display: block;
   margin: 0 auto;
+}
+
+.menu {
+  text-transform: uppercase;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  color: #5f939a;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #d8ac9c;
+}
+
+h1 {
+  color: #1b2021;
+  font-size: 90px;
+}
+
+.social-media a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #1b2021;
+  font-size: 40px;
+}
+
+h3 {
+  color: #1b2021;
+  font-size: 30px;
+}
+p {
+  padding: 20px;
+}
+
+label {
+  padding: 10px;
+}
+
+@media (min-width: 860px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 30%;
+    padding: 10px;
+  }
 }
